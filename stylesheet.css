@@ -1,0 +1,158 @@
+* {
+  background-color: black;
+}
+
+* {
+    text-align:center;
+}
+
+@font-face {
+  font-family: Lequire;
+  src: url(Lequire.otf);
+}
+
+h1 {
+  font-family: Lequire;
+  font-size: 72px;
+  color: white;
+}
+
+h2 {
+  font-family: Lequire;
+  font-size: 48px;
+  color: white;
+}
+
+nav {
+  padding-top: 20px;
+  padding-right: px;
+  padding-bottom: 50px;
+  padding-left: px;
+}
+
+p {
+font-family: Century Gothic, Tahoma, sans-serif;
+color: white;
+}
+
+ul {
+font-family: Century Gothic, Tahoma, sans-serif;
+color: #665570;
+}
+
+a:hover {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+.footer {
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #665570;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: #A7A77D;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #665570;
+  color: white;
+}
+
+/* Box setup */
+body {
+  width:  960px;
+  margin: 0 auto;
+}
+
+section {
+  overflow: auto;
+  height: 100%;
+}
+
+nav {
+  width: 960px;
+  background-color: white;
+  padding: 2px;
+  margin: 10px;
+}
+
+article {
+  float: left;
+  width: 280 px;
+  background-color: black;
+  margin: 10px;
+}
+
+main {
+  background-color: black;
+  padding: 2px;
+  margin: 10px;
+}
+
+footer {
+  background-color: black;
+  padding: 2px;
+  margin: 10px;
+}
+
+/* Nav bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #665570;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #A7A77D;
+}
